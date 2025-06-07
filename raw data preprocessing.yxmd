@@ -1,0 +1,199 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2025.1" RunE2="T">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="18" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">C:\Users\ROSEY\OneDrive\PERSONAL\EDUCATION\KEISER UNIVERSITY\MFT 508\Week 4 assignment\MFT 508 WK 4 FINANCIAL DATASET-RAW.csv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>254</FieldLen>
+            <SingleThreadRead>False</SingleThreadRead>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>,</Delimeter>
+            <QuoteRecordBreak>False</QuoteRecordBreak>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>MFT 508 WK 4 FINANCIAL DATASET-RAW.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Date" size="254" source="File: C:\Users\ROSEY\OneDrive\PERSONAL\EDUCATION\KEISER UNIVERSITY\MFT 508\Week 4 assignment\MFT 508 WK 4 FINANCIAL DATASET-RAW.csv" type="V_String" />
+            <Field name="Security" size="254" source="File: C:\Users\ROSEY\OneDrive\PERSONAL\EDUCATION\KEISER UNIVERSITY\MFT 508\Week 4 assignment\MFT 508 WK 4 FINANCIAL DATASET-RAW.csv" type="V_String" />
+            <Field name="Ticker" size="254" source="File: C:\Users\ROSEY\OneDrive\PERSONAL\EDUCATION\KEISER UNIVERSITY\MFT 508\Week 4 assignment\MFT 508 WK 4 FINANCIAL DATASET-RAW.csv" type="V_String" />
+            <Field name="McapRank" size="254" source="File: C:\Users\ROSEY\OneDrive\PERSONAL\EDUCATION\KEISER UNIVERSITY\MFT 508\Week 4 assignment\MFT 508 WK 4 FINANCIAL DATASET-RAW.csv" type="V_String" />
+            <Field name="TurnRank" size="254" source="File: C:\Users\ROSEY\OneDrive\PERSONAL\EDUCATION\KEISER UNIVERSITY\MFT 508\Week 4 assignment\MFT 508 WK 4 FINANCIAL DATASET-RAW.csv" type="V_String" />
+            <Field name="VolatilityRank" size="254" source="File: C:\Users\ROSEY\OneDrive\PERSONAL\EDUCATION\KEISER UNIVERSITY\MFT 508\Week 4 assignment\MFT 508 WK 4 FINANCIAL DATASET-RAW.csv" type="V_String" />
+            <Field name="PriceRank" size="254" source="File: C:\Users\ROSEY\OneDrive\PERSONAL\EDUCATION\KEISER UNIVERSITY\MFT 508\Week 4 assignment\MFT 508 WK 4 FINANCIAL DATASET-RAW.csv" type="V_String" />
+            <Field name="LitVol('000)" size="254" source="File: C:\Users\ROSEY\OneDrive\PERSONAL\EDUCATION\KEISER UNIVERSITY\MFT 508\Week 4 assignment\MFT 508 WK 4 FINANCIAL DATASET-RAW.csv" type="V_String" />
+            <Field name="OrderVol('000)" size="254" source="File: C:\Users\ROSEY\OneDrive\PERSONAL\EDUCATION\KEISER UNIVERSITY\MFT 508\Week 4 assignment\MFT 508 WK 4 FINANCIAL DATASET-RAW.csv" type="V_String" />
+            <Field name="Hidden" size="254" source="File: C:\Users\ROSEY\OneDrive\PERSONAL\EDUCATION\KEISER UNIVERSITY\MFT 508\Week 4 assignment\MFT 508 WK 4 FINANCIAL DATASET-RAW.csv" type="V_String" />
+            <Field name="TradesForHidden" size="254" source="File: C:\Users\ROSEY\OneDrive\PERSONAL\EDUCATION\KEISER UNIVERSITY\MFT 508\Week 4 assignment\MFT 508 WK 4 FINANCIAL DATASET-RAW.csv" type="V_String" />
+            <Field name="HiddenVol('000)" size="254" source="File: C:\Users\ROSEY\OneDrive\PERSONAL\EDUCATION\KEISER UNIVERSITY\MFT 508\Week 4 assignment\MFT 508 WK 4 FINANCIAL DATASET-RAW.csv" type="V_String" />
+            <Field name="TradeVolForHidden('000)" size="254" source="File: C:\Users\ROSEY\OneDrive\PERSONAL\EDUCATION\KEISER UNIVERSITY\MFT 508\Week 4 assignment\MFT 508 WK 4 FINANCIAL DATASET-RAW.csv" type="V_String" />
+            <Field name="Cancels" size="254" source="File: C:\Users\ROSEY\OneDrive\PERSONAL\EDUCATION\KEISER UNIVERSITY\MFT 508\Week 4 assignment\MFT 508 WK 4 FINANCIAL DATASET-RAW.csv" type="V_String" />
+            <Field name="LitTrades" size="254" source="File: C:\Users\ROSEY\OneDrive\PERSONAL\EDUCATION\KEISER UNIVERSITY\MFT 508\Week 4 assignment\MFT 508 WK 4 FINANCIAL DATASET-RAW.csv" type="V_String" />
+            <Field name="OddLots" size="254" source="File: C:\Users\ROSEY\OneDrive\PERSONAL\EDUCATION\KEISER UNIVERSITY\MFT 508\Week 4 assignment\MFT 508 WK 4 FINANCIAL DATASET-RAW.csv" type="V_String" />
+            <Field name="TradesForOddLots" size="254" source="File: C:\Users\ROSEY\OneDrive\PERSONAL\EDUCATION\KEISER UNIVERSITY\MFT 508\Week 4 assignment\MFT 508 WK 4 FINANCIAL DATASET-RAW.csv" type="V_String" />
+            <Field name="OddLotVol('000)" size="254" source="File: C:\Users\ROSEY\OneDrive\PERSONAL\EDUCATION\KEISER UNIVERSITY\MFT 508\Week 4 assignment\MFT 508 WK 4 FINANCIAL DATASET-RAW.csv" type="V_String" />
+            <Field name="TradeVolForOddLots('000)" size="254" source="File: C:\Users\ROSEY\OneDrive\PERSONAL\EDUCATION\KEISER UNIVERSITY\MFT 508\Week 4 assignment\MFT 508 WK 4 FINANCIAL DATASET-RAW.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="162" y="18" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Date" selected="True" />
+            <SelectField field="Ticker" selected="True" />
+            <SelectField field="VolatilityRank" selected="True" type="Double" size="8" />
+            <SelectField field="PriceRank" selected="True" type="Double" size="8" />
+            <SelectField field="LitVol('000)" selected="True" type="Double" size="8" />
+            <SelectField field="OrderVol('000)" selected="True" type="Double" size="8" />
+            <SelectField field="HiddenVol('000)" selected="True" type="Double" size="8" />
+            <SelectField field="OddLotVol('000)" selected="True" type="Double" size="8" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="3">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DateTime.DateTime">
+        <Position x="246" y="18" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <IsFrom value="False" />
+          <InputFieldName>Date</InputFieldName>
+          <Language>English</Language>
+          <Format>yyyyMMdd</Format>
+          <OutputFieldName>DateTime_Out</OutputFieldName>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Convert Date From:
+yyyyMMdd</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDateTime" />
+    </Node>
+    <Node ToolID="5">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="354" y="18" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="19">C:\Users\ROSEY\OneDrive\PERSONAL\EDUCATION\KEISER UNIVERSITY\MFT 508\Week 4 assignment\q1 2025 pre-processed data risk-volatility.yxdb</File>
+          <Passwords />
+          <Disable>False</Disable>
+          <FormatSpecificOptions>
+            <WriteCompatibleVersion>False</WriteCompatibleVersion>
+            <NoSpatialIndex>False</NoSpatialIndex>
+            <SaveSource>True</SaveSource>
+            <SuppressBlankFile>False</SuppressBlankFile>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>q1 2025 pre-processed data risk-volatility.yxdb</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="2" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="3" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="5" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <RunWithE2 value="True" />
+    <DefaultTZ value="Local" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <IsTemplate value="False" />
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>raw data preprocessing</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="1807cec2-83d7-4e06-9274-ddd264bac731" />
+      <Telemetry>
+        <PreviousWorkflowId value="d303d400-474a-4a5f-a580-126f98e814b5" />
+        <OriginWorkflowId value="d303d400-474a-4a5f-a580-126f98e814b5" />
+      </Telemetry>
+      <PlatformWorkflowId value="" />
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
